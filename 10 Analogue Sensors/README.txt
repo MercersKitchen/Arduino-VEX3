@@ -1,4 +1,9 @@
-Why 0-1023 for the Potentiometer?
+Author: Mr. Rutter
+
+Title: Why 0-1023 for the Potentiometer?
+
+Content:
+
 The Arduino’s analog pins (A0, A1, etc.) read analog input using a 10-bit Analog-to-Digital Converter (ADC). This means the input voltage (0V to 5V) is converted into a range of 0 to 1023.
 
 How It Works:
