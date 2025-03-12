@@ -22,6 +22,7 @@ Hyperlinks & Notes
     - Alternate URL: https://www.youtube.com/watch?v=N2LpwizZARw
     - GMail link: https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQZTgSWNJZpqqNhcsFvTLpmWPTp
 
+- https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQZTgSWNJZWczBlhjzPBczCbFtB
 
 - Arduino Code URLs, <a href="">TBA</a>
     - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/33?page=2
