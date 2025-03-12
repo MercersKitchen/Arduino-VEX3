@@ -14,6 +14,9 @@ Hyperlinks & Notes
     - https://ca.robotshop.com/products/tamiya-connector-female-3pk?qd=e6fbbf51c3f156d857d0f7ee2ba49999
     - https://www.amazon.ca/dp/B07BTVSMBW/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk
 
+    - https://www.amazon.ca/Charger-Cable-1A-2A-Batteries-Accessory/dp/B0C39D78B9
+    
+
 - Possible Motor Controller links, <a href="">TBA</a>
     - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/33?page=2
 
