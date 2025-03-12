@@ -143,14 +143,3 @@ https://youtu.be/Wa8CjGsOFzY?si=0STN7rZC84WG9xFl
 - 
 
 ---
- # VEX Motor Wiring and Code
-
- Reserach
- - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/9
- - https://www.vexforum.com/t/using-a-vex-motor-in-arduino/112472/3
- - https://forum.arduino.cc/t/arduino-with-vex-motor/187302/2
-
- - https://www.google.com/search?q=VEX+motor+393+to+arduino&rlz=1C1GCEA_enCA1147CA1147&oq=VEX+motor+393+to+arduino&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyCggDEAAYgAQYogQyBwgEEAAY7wUyBwgFEAAY7wUyCggGEAAYgAQYogTSAQg3NTY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on
-
- ---
- 

@@ -3,141 +3,44 @@ Exploration
 
 Reminder in Arduino IDE: Open Serial Monitor
 
-Hyperlinks
-- Exploration of PlatformIO, <a href="https://github.com/MercersKitchen/Arduino-VEX3?tab=readme-ov-file#arduino-vex3">Text Here</a>
-- VEX Ultrasonic, <a href="https://github.com/MercersKitchen/Arduino-VEX3/tree/main?tab=readme-ov-file#vex-ultrasonic">Text Here</a>
-    - <a href="https://github.com/MercersKitchen/Arduino-VEX3/blob/main/Vex_ultrasound/Vex_ultrasound.ino">Code Here</a>
-    - See Folder above for Images
-- TBA, <a href="">Text Here</a>
-- TBA, <a href="">Code Here</a>
+Hyperlinks & Notes
+- Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">TBA</a>
+    - The battery side connector should always be the male, and the gun/charger side should be the female connector
+    - https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQZTgSWNKgjLwmVrpCjtZKJDTsr
+    - https://www.amazon.ca/LinsyRC-Connector-Big-Tamiya-Adapter-Battery/dp/B09YGSQC1R
+    - https://www.amazon.ca/dp/B07JKP7ZXK/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B07JKP7ZXK&pd_rd_w=w57uj&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=S4844KPPAMH5922G5YFZ&pd_rd_wg=Lzuto&pd_rd_r=cc793947-b2c2-4d9e-bc29-8186e2909acd&s=industrial&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw
+    - https://ca.robotshop.com/products/tamiya-connector-female-3pk?srsltid=AfmBOooObUWdlqqdNm3qJwpKyK_o2U6ZKU7HXwHUKhldSSTQcilwX_Jfdsw
+    - https://www.amazon.ca/-/fr/fiches-Tamiya-femelles-broche-voiture/dp/B07RB1QL9H?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A12UF4SPVWH7GR&language=en_CA
+    - https://ca.robotshop.com/products/tamiya-connector-female-3pk?qd=e6fbbf51c3f156d857d0f7ee2ba49999
+    - https://www.amazon.ca/dp/B07BTVSMBW/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk
+
+- Possible Motor Controller links, <a href="">TBA</a>
+    - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/33?page=2
+
+- TBA, <a href="">TBA</a>
+    - Video: https://youtu.be/N2LpwizZARw?si=F5avcAYSM-sbMYwE
+    - Alternate URL: https://www.youtube.com/watch?v=N2LpwizZARw
+    - GMail link: https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQZTgSWNJZpqqNhcsFvTLpmWPTp
 
 
-** Note:** forked and alternate from Mr. Rutter
-- https://github.com/NickRutterUalberta/Arduino-VEX3
-
----
-
-# Exploration of PlatformIO
-- Install PlatformIO as an Extension
-- Create a New Project from a ```.ino file```
-- Select Accurate Board (i.e. Arudino Uno)
-
-When opening again
-- In Folder ```scr``` open ```.ino```
-- CAUTION: delete any main.cpp, etc
-- Then open PlatformIO / Open / Navigate to platformio.ino / Open Project
-- Switch to the Arduino Program
-- Note: add ``` #include <arduino.h>``` library
-
-To open a new Folder: File / New Window OR Open Folder
-
----
-
-# Converting Arduino to VSC-PlatformIO
-- In Github Desktop / Open VSC
-
-### Notes to include
-- New Project
-- Choose Board
-- Name File
-- PlatformIO will create contents of folder
-- copy .ino to source
-- delete main.cpp
-- execute by checkmark, arrow, and clicking the pulg in (serial monitor, in the PlatformIO bottom-picker)
-
----
-
-# VEX Ultrasonic
-- Black: ground
-- Red: 5V Power
-- digital output means triggering a sensor between 0 & 1
-
-Trigger (OUTPUT): Orange, Pin-9
-
-Echo (INPUT): Yellow, Pin-10
-
----
-
-# VEX Shaft Encoder
-- Black: ground
-- Red: 5V (CAUTION current image illustrates 3.3V)
-- digital output means triggering a sensor between 0 & 1
-
-Outer White Wire = 3 Pin
-
-Inner White Wire = 5 Pin
-
-If Power connected to 3.3V program runs but sensor does not output or input distance
-
----
-
-# Line Follower
-- **See Folder for PDFs** about sensor desgin and hints.
-- Black: ground
-- Red: 5V
-
-- analog means reading a specifc number
-
-- line sensor: what is the darkest number, what is the birghtest number
-- how does this correspond in "real-life"
-
-Google Search: https://www.vexrobotics.com/276-2154.html?___store=vexroboticsca&___from_store=vexrobotics&srsltid=AfmBOopOWOMtHZChHNC3Sl_xxSmBXaDxidMMMvo1M1As8EO_jG4Fgu_r#attr-vex_compatability
-- Sensor Search numbers on sesnor: Vex3 2442BB [276-2154]
-
----
-
-# Potentiometer
-
-Video Support: https://youtu.be/Wa8CjGsOFzY?si=0STN7rZC84WG9xFl
-- https://docs.arduino.cc/learn/electronics/potentiometer-basics/
-
-### Rearch
-- https://kb.vex.com/hc/en-us/articles/360039090591-Using-the-V5-3-Wire-Potentiometer
-- https://wiki.purduesigbots.com/vex-electronics/vex-sensors/3-pin-adi-sensors/potentiometer
-- https://www.vexforum.com/t/potentiometer/45361
-- https://kb.vex.com/hc/en-us/articles/360039090591-Using-the-V5-3-Wire-Potentiometer
-
---- 
-
-# Bump Switch
-
-
-Ideas
-- https://kb.vex.com/hc/en-us/articles/360038026831-Using-the-V5-3-Wire-Bumper-Switch-v2-Limit-Switch
-- https://www.vexforum.com/t/programming-bumper-switches/23430
-
-
---- 
-
----
-
-# Limit Switch
-
-
-
-Ideas
-- https://kb.vex.com/hc/en-us/articles/360038026831-Using-the-V5-3-Wire-Bumper-Switch-v2-Limit-Switch
-
-
-
---- 
-
-# Arduino Uno Playlist
-
-https://youtu.be/Wa8CjGsOFzY?si=0STN7rZC84WG9xFl
+- Arduino Code URLs, <a href="">TBA</a>
+    - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/33?page=2
+    - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/8
+    - https://www.vexrobotics.com/276-2193.html?queryID=ffdb790d94388c33e27969d4a84d4f55&objectID=1122&indexName=vex_m2_vexroboticsca_products#attr-vex_kit_contents
+    - https://www.vexrobotics.com/393-motors.html#description
 
 
 ---
 
-# To Include
-- find design ideas for sensor
-- design self-driving car | apply to cars already made
+# VEX Research: Motor Wiring and Code
 
+Reserach
+ - https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/9
+ - https://www.vexforum.com/t/using-a-vex-motor-in-arduino/112472/3
+ - https://forum.arduino.cc/t/arduino-with-vex-motor/187302/2
+
+ - https://www.google.com/search?q=VEX+motor+393+to+arduino&rlz=1C1GCEA_enCA1147CA1147&oq=VEX+motor+393+to+arduino&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyCggDEAAYgAQYogQyBwgEEAAY7wUyBwgFEAAY7wUyCggGEAAYgAQYogTSAQg3NTY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on
+
+ ---
+ 
 ---
-
-# To Explore
-- https://github.com/michaellatman/Arduino-VEX
-- https://forum.arduino.cc/t/vex-kit-controller-usage/1158279/2
-- https://learn.sparkfun.com/blog/1593
-- https://forum.arduino.cc/t/problems-incorporating-vex-into-arduino/520665
-- 
