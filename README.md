@@ -116,8 +116,11 @@ Ideas
 
 # VEX Motor 393 with Motor Controller 29
 - Required, Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">here</a>
-- Example Code from Video, <a href="">here</a>
-
+   - Battery side connector should always be the male
+   - Charger or Breadboard side should be the female connector
+- VEX EDR Motor 393 Website, <a href="https://www.vexrobotics.com/393-motors.html">here</a>
+- VEX Motor Controller 29 Website, <a href="https://www.vexrobotics.com/276-2193.html">here</a>
+- Reminder in Arduino IDE: Open Serial Monitor
 
 # You Tube 
 - URL: https://www.youtube.com/watch?v=N2LpwizZARw

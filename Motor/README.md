@@ -1,11 +1,11 @@
 # Arduino-VEX3
 Exploration
 
-Reminder in Arduino IDE: Open Serial Monitor
+
 
 Hyperlinks & Notes
 - Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">TBA</a>
-    - The battery side connector should always be the male, and the gun/charger side should be the female connector
+    
     - https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQZTgSWNKgjLwmVrpCjtZKJDTsr
     - https://www.amazon.ca/LinsyRC-Connector-Big-Tamiya-Adapter-Battery/dp/B09YGSQC1R
     - https://www.amazon.ca/dp/B07JKP7ZXK/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B07JKP7ZXK&pd_rd_w=w57uj&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=S4844KPPAMH5922G5YFZ&pd_rd_wg=Lzuto&pd_rd_r=cc793947-b2c2-4d9e-bc29-8186e2909acd&s=industrial&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw
