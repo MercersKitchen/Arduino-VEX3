@@ -107,13 +107,29 @@ Ideas
 - https://www.vexforum.com/t/programming-bumper-switches/23430
 
 
---- 
-
 ---
 
 # Limit Switch
 
 
+---
+
+# VEX Motor 393 with Motor Controller 29
+- Required, Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">here</a>
+- Example Code from Video, <a href="">here</a>
+
+
+# You Tube 
+- URL: https://www.youtube.com/watch?v=N2LpwizZARw
+- ERROR: 9V is going to the breadboard
+   - Arduino is stepping-down the 9V to 5V
+   - The current is also decreased a lot
+   - Solutin: Connect higher amp battery
+- ERROR: mirrored motor turn opposite ways to turn in the same way
+   - Soution: switch polarity
+   - SOlution: change the code to a negative value
+
+---
 
 Ideas
 - https://kb.vex.com/hc/en-us/articles/360038026831-Using-the-V5-3-Wire-Bumper-Switch-v2-Limit-Switch
