@@ -3,6 +3,8 @@ Exploration
 
 Motor Code Links
 
+Sparkfun's VEX Motor Library: https://github.com/sparkfun/vexMotor
+
 Video: https://www.youtube.com/watch?v=N2LpwizZARw
 - Copy Code off Video
 
@@ -16,5 +18,4 @@ Comments & Code:
 Comments and Code, alternate: 
 - https://forum.arduino.cc/t/arduino-with-vex-motor/187302/2
 
-
-
+---
