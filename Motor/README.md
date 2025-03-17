@@ -1,6 +1,16 @@
 # Arduino-VEX3
 Exploration
 
+---
+
+CAUTION: Develop Motor Program
+- sensor programs are working in Arduino Only
+- Still need to execute sensor programs in VSC to utilize Co-Pilote that is built in
+
+Delete this note when done
+
+---
+
 Motor Code Links
 
 Sparkfun's VEX Motor Library: https://github.com/sparkfun/vexMotor
