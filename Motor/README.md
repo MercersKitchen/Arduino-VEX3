@@ -20,6 +20,9 @@ Delete this note when done
 Motor Code Links
 
 Sparkfun's VEX Motor Library: https://github.com/sparkfun/vexMotor
+- ERROR: header file issue
+    - Solution: downgrade to Arduino v1.8.9
+- TBA
 
 Video: https://www.youtube.com/watch?v=N2LpwizZARw
 - Copy Code off Video
