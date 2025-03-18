@@ -124,10 +124,21 @@ Ideas
 
 # VEX Motor 393 with Motor Controller 29
 
-## Basic Breadboard Connection
+## To Do List
+- Powering Ardino from 9V Battery, Barrel required
+   - https://forum.arduino.cc/t/powering-my-uno-r3/565905
+   - https://forum.arduino.cc/t/power-with-9v-battery/892709
+   - https://www.amazon.ca/Extra-Power-Supply-Adapter-Arduino/dp/B09T6VNPF8
+- DDM voltages of different int-values for motor
+- Power Arudino from Barell connetor (old laptops) to breadboard
+- Create prototyping board using 2-prong and 3-prong connectors & hookup wire
+   - Purpose: prototyping board is discarded, everything is unplugged from prototyping board
+   - https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/640250-3/259225?gclsrc=aw.ds&&utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Zombie%20SKUs&utm_term=&productid=259225&utm_content=General&utm_id=go_cmp-17855401585_adg-_ad-__dev-c_ext-_prd-259225_sig-EAIaIQobChMIob7hmLGUjAMVEyutBh2EUwA1EAQYAiABEgJkEPD_BwE&gad_source=1&gclid=EAIaIQobChMIob7hmLGUjAMVEyutBh2EUwA1EAQYAiABEgJkEPD_BwE
+   - 3 Rectangular Connectors - Housings Receptacle Natural 0.156" (3.96mm)
+- TBA
 
-**Arduino**
----
+- Re-execute all code in VSC with PlatformIO
+- Ability to use Co-pilot
 
 CAUTION: Develop Motor Program
 - sensor programs are working in Arduino Only
@@ -135,9 +146,59 @@ CAUTION: Develop Motor Program
 
 Delete this note when done
 
+## Errors and Debugging
+
+ERROR: Arduino IDE
+- Display: Downloading package-index.tar.bz2
+- Solution: close the serial monitor
+
+Sparkfun's VEX Motor Library: https://github.com/sparkfun/vexMotor
+- ERROR: header file issue
+    - Solution: downgrade to Arduino v1.8.9
+- Cannot happen on School Computers
+
+## Developing Motor Code
+
 ---
 
-- Required, Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">here</a>
+Video: https://www.youtube.com/watch?v=N2LpwizZARw
+- Copy Code off Video
+- Ruth developing, will share when complete
+
+---
+
+Description of Code: https://www.vexforum.com/t/using-a-vex-motor-in-arduino/112472/3
+Images and Code: https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/34?page=2
+
+Comments & Code:
+- https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/8
+- https://forum.arduino.cc/t/vex-motor-code-help-need/1088689/9
+
+Comments and Code, alternate: 
+- https://forum.arduino.cc/t/arduino-with-vex-motor/187302/2
+
+---
+
+## Basic Breadboard Connection
+
+### Arduino
+- USB to computer: download and power arduino
+   - Alternate Arduino Power In: barrel from BATT+ & BATT-
+- GRD to BATT-
+- Pin-9 (Digital) to WHITE-wire Motor-29, 3-prong
+
+### Motor-29, 3-prong
+- ORANGE to BATT+
+- BLACK to BATT-
+- WHITE to Arduino-Pin-9 (Digital)
+
+## Motor-29 to Motor, 2-Pronge
+- direct connection
+
+---
+
+Connectors Required
+- Tamiya Female Connectors, <a href="https://www.amazon.ca/dp/B06XRW21GN/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B06XRW21GN&pd_rd_w=iKSfx&content-id=amzn1.sym.516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_p=516c2169-755e-413a-a38a-68230f4ab66f&pf_rd_r=EH4F3875ETBZ61EB81Y0&pd_rd_wg=YvfSs&pd_rd_r=d1584f56-5fd2-448d-9635-e373a72f1ad9&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">here</a>
    - Battery side connector should always be the male
    - Charger or Breadboard side should be the female connector
 - VEX EDR Motor 393 Website, <a href="https://www.vexrobotics.com/393-motors.html">here</a>
@@ -152,7 +213,7 @@ Delete this note when done
    - Solutin: Connect higher amp battery
 - ERROR: mirrored motor turn opposite ways to turn in the same way
    - Soution: switch polarity
-   - SOlution: change the code to a negative value
+   - Solution: change the code to a negative value
 
 ---
 
