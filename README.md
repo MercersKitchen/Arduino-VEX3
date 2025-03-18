@@ -124,6 +124,9 @@ Ideas
 
 # VEX Motor 393 with Motor Controller 29
 
+## Basic Breadboard Connection
+
+**Arduino**
 ---
 
 CAUTION: Develop Motor Program
