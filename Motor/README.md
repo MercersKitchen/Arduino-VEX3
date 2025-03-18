@@ -3,6 +3,12 @@ Exploration
 
 ---
 
+ERROR: Arduino IDE
+- Display: Downloading package-index.tar.bz2
+- Solution: close the serial monitor
+
+---
+
 CAUTION: Develop Motor Program
 - sensor programs are working in Arduino Only
 - Still need to execute sensor programs in VSC to utilize Co-Pilote that is built in
