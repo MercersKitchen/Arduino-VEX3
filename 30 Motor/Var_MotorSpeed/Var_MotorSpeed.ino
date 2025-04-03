@@ -1,5 +1,5 @@
 const int motorPin = 9;
-int motorSpeed = 255; // 81<motorSpeed<255
+int motorSpeed = 200; // 81<motorSpeed<255
 //Test the numbers inbetween 0-81
 //Test the numbers inbetween 81-255 for obvious changes, then read the voltage readings on the Arduino Pin
 //Test the negaive values by *-1
@@ -7,8 +7,6 @@ int motorSpeed = 255; // 81<motorSpeed<255
 void setup() {
   Serial.begin(9600);
   pinMode(motorPin, OUTPUT);
-  //Serial.println("Enter speed");
-
 }
 
 void loop() {

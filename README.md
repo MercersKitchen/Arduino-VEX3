@@ -245,3 +245,8 @@ https://youtu.be/Wa8CjGsOFzY?si=0STN7rZC84WG9xFl
 - 
 
 ---
+
+# Motor Explore Solution
+https://www.google.com/search?q=arduino+analogWrite%28motorPin%2C+motorSpeed%29%3B&sca_esv=2020710c914fca4d&rlz=1C1GCEA_enCA1147CA1147&ei=cNfuZ9vlMs6-0PEP-tmk6QQ&ved=0ahUKEwjb3fX2wryMAxVOHzQIHfosKU0Q4dUDCBA&uact=5&oq=arduino+analogWrite%28motorPin%2C+motorSpeed%29%3B&gs_lp=Egxnd3Mtd2l6LXNlcnAiKmFyZHVpbm8gYW5hbG9nV3JpdGUobW90b3JQaW4sIG1vdG9yU3BlZWQpOzIHECEYoAEYCjIHECEYoAEYCkiIFlCaBlj7CHABeAGQAQCYAaEBoAGJAqoBAzAuMrgBA8gBAPgBAfgBApgCA6ACugLCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgIWEC4YgAQYsAMYQxjlBBjIAxiKBdgBAcICDRAAGIAEGLEDGEMYigXCAhAQLhiABBixAxhDGOUEGIoFwgINEC4YgAQYQxjlBBiKBcICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFmAMAiAYBkAYRugYGCAEQARgJkgcDMS4yoAfvD7IHAzAuMrgHrgI&sclient=gws-wiz-serp&safe=active&ssui=on
+
+---
