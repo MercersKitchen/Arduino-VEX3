@@ -6,13 +6,15 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);  // initialize digital pin LED_BUILTIN as an output pin.
   // Set the motor pin as an output
   pinMode(motorPin, OUTPUT);
-  Serial.println("Motor", motorParameter);
+  Serial.print("Motor, ");
+  Serial.println(motorParameter);
 }
 
 void loop() {
   on(1000, 500); //Verifies Code executes
-  analogWrite(motorPin, -motorParameter); // Set the motor speed to xxx (max 255)
-  Serial.println("Motor", motorParameter);
+  analogWrite(motorPin, motorParameter); // Set the motor speed to xxx (max 255)
+  Serial.print("Motor, ");
+  Serial.println(motorParameter);
   delay(1000);  // Wait for 1 second
   motorParameter++;
 }
