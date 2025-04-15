@@ -1,5 +1,5 @@
 const int motorPin = 9;  // Define the pin connected to the motor's speed control
-int motorParameter = 82;
+int motorParameter = 82; //Verified lowest value
 
 void setup() {
   Serial.begin(9600);
