@@ -7,9 +7,8 @@ void setup() {
 }
 
 void loop() {
-  on(1000, 500);
-  // Set the motor speed to 128 (half speed)
-  analogWrite(motorPin, -176);
+  on(1000, 500); //Verifies Code executes
+  analogWrite(motorPin, -176); // Set the motor speed to 128 (half speed)
   delay(1000);  // Wait for 1 second
 }
 //
