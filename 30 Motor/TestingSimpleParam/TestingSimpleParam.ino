@@ -16,8 +16,8 @@ void loop() {
   Serial.print("Motor, ");
   Serial.println(motorParameter);
   delay(1000);  // Wait for 1 second
-  if (motorParameter <= 255) {
-    motorParameter++;
+  if (motorParameter < 255) { //negative values???
+    motorParameter++; //does not go to 256
   } else {
     motorParameter=0;
   }
