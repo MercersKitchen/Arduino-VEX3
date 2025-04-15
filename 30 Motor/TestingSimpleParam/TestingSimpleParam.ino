@@ -11,20 +11,25 @@ void setup() {
 }
 
 void loop() {
-  on(1000, 500); //Verifies Code executes
-  analogWrite(motorPin, motorParameter); // Set the motor speed to xxx (max 255)
+  on(1000, 500);                          //Verifies Code executes
+  analogWrite(motorPin, motorParameter);  // Set the motor speed to xxx (max 255)
   Serial.print("Motor, ");
   Serial.println(motorParameter);
   delay(1000);  // Wait for 1 second
-  motorParameter++;
+  if (motorParameter <= 255) {
+    motorParameter++;
+  } else {
+    motorParameter=0;
+  }
+  
 }
 //
-void on(int x, int y){
+void on(int x, int y) {
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
   delay(x);
   off(y);
 }
-void off(int y){
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+void off(int y) {
+  digitalWrite(LED_BUILTIN, LOW);  // turn the LED off by making the voltage LOW
   delay(y);
 }
