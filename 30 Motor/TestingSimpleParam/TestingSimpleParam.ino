@@ -1,4 +1,4 @@
-const int motorPin = 8;  // Define the pin connected to the motor's speed control
+const int motorPin = 9;  // Define the pin connected to the motor's speed control
 int motorParameter = 82; //Verified lowest value
 
 void setup() {
