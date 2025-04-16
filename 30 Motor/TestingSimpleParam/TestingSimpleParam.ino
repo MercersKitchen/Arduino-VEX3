@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  on(1000, 500);                          //Verifies Code executes
+  on(2000, 500);                          //Verifies Code executes
   analogWrite(motorPin, motorParameter);  // Set the motor speed to xxx (max 255)
   Serial.print("Motor, ");
   Serial.println(motorParameter);
