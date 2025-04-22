@@ -1,11 +1,11 @@
 #include <Servo.h>
-
+// See: https://docs.arduino.cc/libraries/servo/
+//
 int leftMotorPin = 4;   //left motor pin
 int rightMotorPin = 2;  //left motor pin
 Servo leftMotor;
 Servo rightMotor;
-
-
+//
 void setup() {
   // put your setup code here, to run once:
   pinMode(leftMotorPin, OUTPUT);
@@ -14,7 +14,7 @@ void setup() {
   leftMotor.attach(leftMotorPin);
   rightMotor.attach(rightMotorPin);
 }
-
+//
 void loop() {
   // put your main code here, to run repeatedly
   leftMotorControl(100);
@@ -25,11 +25,11 @@ void loop() {
   rightMotorControl(-100);
   digitalWrite(13, LOW);
 }
-
+//
 int leftMotorControl(int value) {
   leftMotor.write(map(value, -100, 100, 1000, 2000));
 }
-
+//
 int rightMotorControl(int value) {
   rightMotor.write(map(value, -100, 100, 1000, 2000));
 }
