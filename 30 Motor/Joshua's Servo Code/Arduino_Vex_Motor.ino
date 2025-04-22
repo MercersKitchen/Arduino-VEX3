@@ -1,7 +1,7 @@
 #include <Servo.h> // Include the Servo library
 
 // Pin and variable declarations
-int potPin = A1; // Potentiometer connected to analog pin A1
+int potPin = A1; // Potentiometer connected to analog pin A1 (0 - 1023, 500 is no motion, <500 is backwards, >500 is forwards
 int leftMotorPin = 11;  // Left motor signal pin
 int rightMotorPin = 12; // Right motor signal pin
 int frontLeftMotorPin = 13; // Front left motor signal pin
