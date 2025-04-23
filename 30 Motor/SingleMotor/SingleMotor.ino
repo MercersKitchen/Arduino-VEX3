@@ -28,10 +28,10 @@ void loop() {
   int motorSpeed = map(potValue, 0, 1023, 1000, 2000); // Map it to a higher motor speed range (1000-2000)
   //
   // Print the potentiometer value to the Serial Monitor
-  Serial.print("Potentiometer Value: ");
-  Serial.println(potValue);
-  Serial.print("Motor Speed: ");
-  Serial.println(motorSpeed);
+  //Serial.print("Potentiometer Value: ");
+  //Serial.println(potValue);
+  //Serial.print("Motor Speed: ");
+  //Serial.println(motorSpeed);
   //
   // Set all motors to the calculated speed
   leftMotor.writeMicroseconds(motorSpeed);
