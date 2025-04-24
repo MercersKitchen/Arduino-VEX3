@@ -22,7 +22,7 @@ void setup() {
 }
 //
 void loop() {
-  int potValue = 1000;//testing only
+  int potValue = 0;//testing only
   // Read the potentiometer value
   //int potValue = analogRead(potPin); // Read the analog value (0-1023)
   int motorSpeed = map(potValue, 0, 1023, 1000, 2000); // Map it to a higher motor speed range (1000-2000)

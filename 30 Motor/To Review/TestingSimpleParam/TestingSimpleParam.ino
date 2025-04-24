@@ -1,5 +1,5 @@
 const int motorPin = 9;  // Define the pin connected to the motor's speed control
-int motorParameter = 82; //Verified lowest value
+int motorParameter = 75; //Verified lowest value
 
 void setup() {
   Serial.begin(9600);
@@ -16,7 +16,7 @@ void loop() {
   Serial.print("Motor, ");
   Serial.println(motorParameter);
   delay(1000);  // Wait for 1 second
-  if (motorParameter < 255) { //negative values???
+  if (motorParameter < 254) { //negative values???
     motorParameter++; //does not go to 256
   } else {
     motorParameter=0;
