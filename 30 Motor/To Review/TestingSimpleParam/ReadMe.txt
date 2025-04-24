@@ -1,7 +1,10 @@
 82 - 180: one direction
+
+115 - 130 Best??
+
 197 - 254: opposite direction
 
-
+Best??
 
 
 
