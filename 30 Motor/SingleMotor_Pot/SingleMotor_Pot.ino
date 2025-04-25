@@ -18,6 +18,9 @@ void loop() {
   //int potValue = analogRead(potPin); // Read the analog value (0-1023)
   int motorSpeed = map(potValue, 0, 1023, 1000, 2000); // Map it to a higher motor speed range (1000-2000)
   //
+  // Set all motors to the calculated speed
+  leftMotor.writeMicroseconds(motorSpeed);
+  //
   delay(100); // Small delay for stability
 }
 //
