@@ -3,6 +3,7 @@ Exploration
 
 CAUTION: Develop Motor Program
 - sensor programs are working in Arduino Only
+   - make compatible VS-C Version
 - Still need to execute sensor programs in VSC to utilize Co-Pilote that is built in
 
 Delete this note when done
@@ -123,6 +124,18 @@ Ideas
 ---
 
 # VEX Motor 393 with Motor Controller 29
+- Power from Remote Car Batteries (includes barrel adapter)
+- Power from breadboard wtih VEX Battery adapted to rail-input with molex
+- CAUTION, 9V will not work since amps is not enought
+- NOTE: control for motor able to run off arduino powered with barrel from Remote Control Battery
+
+- Note: Arduino can be powered from Voltage-In Pin off breadbaord from RAILS of VEX Battery
+
+---
+
+Table Top Prototyping Power, see plug in barrel like https://www.amazon.ca/Extra-Power-Supply-Adapter-Arduino/dp/B09T6VNPF8
+
+TBA, <a href="">Text Here</a>
 
 ## To Do List
 - Powering Ardino from 9V Battery, Barrel required
